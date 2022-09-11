@@ -55,6 +55,10 @@ li {
     color: var(--secondary-font-color);
 }
 
+li:hover {
+    color: var(--primary-font-color);
+    cursor: pointer;
+}
 
 .content-row-1 {
     grid-area: content1;
