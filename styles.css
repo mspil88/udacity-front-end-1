@@ -105,5 +105,35 @@ li {
 }
 
 .search-container {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#search {
+    min-width: 400px;
+    max-width: 1000px;
+    height: 30px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid var(--primary-font-color);
+    
+}
+
+#search:focus {
+    outline: none;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.fa-magnifying-glass {
+    color: var(--secondary-font-color);
+}
+
+.fa-magnifying-glass:hover {
+    color: var(--primary-font-color);
 }
