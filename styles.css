@@ -116,9 +116,10 @@ li:hover {
 }
 
 #search {
-    min-width: 400px;
-    max-width: 1000px;
-    height: 30px;
+    min-width: 100px;
+    max-width: 600px;
+    height: 1.5em;
+    font-size: 10px;
     background: none;
     border: none;
     border-bottom: 1px solid var(--primary-font-color);
@@ -161,7 +162,7 @@ button {
 }
 
 
-@media only screen and (max-width: 1125px) {
+@media only screen and (min-width: 790px) and (max-width: 1125px) {
     .content-container {
         max-width: 100%;
         margin: 10px 100px 10px 100px;
@@ -183,6 +184,33 @@ button {
         grid-template-areas: 
              "content-r1 content-r1"
              "content-r2 content-r2"
+    
+    }
+    
+}
+
+@media only screen and (max-width: 789px) {
+    .content-container {
+        max-width: 100%;
+        margin: 10px 100px 10px 100px;
+        display: grid;
+        grid-template-rows: 50px 600px 150px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        grid-gap: 10px;
+        grid-template-areas:
+            "header"
+            "content1"
+            "content1"
+            "footer";
+    }
+
+    .content-row-1 {
+        grid-area: content1;
+        border: 1px solid blue;
+        display: grid;
+        grid-template-areas: 
+             "content-r1"
+             "content-r2"
     
     }
     
