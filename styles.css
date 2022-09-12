@@ -97,6 +97,10 @@ li:hover {
     color: var(--primary-font-color);
 }
 
+.post-title:hover {
+    cursor: pointer;
+}
+
 .post-date {
     font-size: var(--date-font-size);
     color: var(--secondary-font-color);
@@ -119,7 +123,8 @@ li:hover {
 }
 
 .post-image:hover {
-    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+    cursor: pointer; 
 }
 
 .footer {
