@@ -102,6 +102,18 @@ li:hover {
     color: var(--secondary-font-color);
 }
 
+/* img {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+} */
+
+#post-image-1, #post-image-2, #post-image-3, #post-image-4, #post-image-5, #post-image-6 {
+    background: url("imgs/cat.jfif") center center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    
+}
 
 .footer {
     grid-area: footer;
