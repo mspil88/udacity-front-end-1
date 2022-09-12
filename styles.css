@@ -191,7 +191,7 @@ button {
 
     .content-row-1 {
         grid-area: content1;
-        border: 1px solid blue;
+        /* border: 1px solid blue; */
         display: grid;
         grid-template-areas: 
              "content-r1 content-r1"
