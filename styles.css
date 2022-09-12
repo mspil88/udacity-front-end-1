@@ -1,7 +1,7 @@
 :root {
     --font: Rubik;
     --title-font-size: 20px;
-    --date-font-size: 10px;
+    --date-font-size: 15px;
     --title-font-weight: bold;
     --date-font-color: #8c979a;
     --primary-font-color: rgba(0, 0, 0, .9);
@@ -71,8 +71,6 @@ li:hover {
          "content-r2 content-r2 content-r2"
 
 }
-
-
 
 .blog-item-r1, .blog-item-r2 {
     border: 1px solid purple;
@@ -160,4 +158,32 @@ button {
 
 .fa-brands:hover {
     color: var(--primary-font-color);
+}
+
+
+@media only screen and (max-width: 955px) {
+    .content-container {
+        max-width: 100%;
+        margin: 10px 100px 10px 100px;
+        display: grid;
+        grid-template-rows: 50px 600px 600px 150px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        grid-gap: 10px;
+        grid-template-areas:
+            "header header"
+            "content1 content1"
+            "content1 content1"
+            "footer footer";
+    }
+
+    .content-row-1 {
+        grid-area: content1;
+        border: 1px solid blue;
+        display: grid;
+        grid-template-areas: 
+             "content-r1 content-r1"
+             "content-r2 content-r2"
+    
+    }
+    
 }
