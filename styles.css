@@ -34,14 +34,16 @@ body {
     margin: 10px 100px 10px 100px;
     display: grid;
     /* grid-template-rows: 50px 900px 150px; */
-    grid-template-rows: 0.2fr 4fr 0.5fr;
+    grid-template-rows: 0.2fr 4fr 0.5f 1fr;
     /* grid-template-columns: repeat(1, minmax(200px, 1fr)); */
     grid-gap: 10px;
     grid-template-areas:
         "header"
         "blogpost"
+        "next"
         "footer";
 }
+
 
 /* @media only screen and (max-width:  2000px) {
     .content-container-post {
@@ -361,4 +363,23 @@ i:hover {
 
 a {
     text-decoration: none;
+}
+
+.blog-next-section {
+    grid-area: next;
+    border: 1px solid purple;
+}
+
+.next-info {
+    float: right;
+}
+
+.next-id {
+    float: right;
+    margin-right: 20px;
+}
+
+.next-title {
+    font-weight: bold;
+    font-size: 20px;
 }
