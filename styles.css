@@ -27,9 +27,22 @@ body {
         "footer footer footer";
 }
 
+.content-container-post {
+    max-width: 100%;
+    margin: 10px 100px 10px 100px;
+    display: grid;
+    grid-template-rows: 50px 800px 150px;
+    grid-template-columns: repeat(1, minmax(200px, 1fr));
+    grid-gap: 10px;
+    grid-template-areas:
+        "header"
+        "blogpost"
+        "footer";
+}
+
 .header-container {
     grid-area: header;
-    /* border: 1px solid green; */
+    border: 1px solid green;
     display: flex;
     
 }
@@ -70,6 +83,11 @@ li:hover {
          "content-r1 content-r1 content-r1"
          "content-r2 content-r2 content-r2"
 
+}
+
+.blog-post-itm {
+    border: 1px solid blue;
+    grid-template-areas: blogpost;
 }
 
 .blog-item-r1, .blog-item-r2 {
@@ -133,7 +151,7 @@ li:hover {
 
 .footer {
     grid-area: footer;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: inline-block;
 }
 
@@ -284,4 +302,8 @@ i:hover {
         margin-bottom: 20px;
     }
     
+}
+
+a {
+    text-decoration: none;
 }
