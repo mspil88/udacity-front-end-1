@@ -95,6 +95,7 @@ li:hover {
     font-size: var(--title-font-size);
     font-weight: var(--title-font-weight);
     color: var(--primary-font-color);
+    max-width: 500px;
 }
 
 .post-title:hover {
@@ -158,6 +159,10 @@ button {
     background: none;
     border: none;
     outline: none;
+}
+
+i:hover {
+    cursor: pointer;
 }
 
 .fa-magnifying-glass {
