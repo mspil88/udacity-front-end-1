@@ -377,6 +377,11 @@ a {
 .next-id {
     float: right;
     margin-right: 20px;
+    color: var(--secondary-font-color);
+}
+
+.next-id:hover {
+    color: var(--primary-font-color);
 }
 
 .next-title {
