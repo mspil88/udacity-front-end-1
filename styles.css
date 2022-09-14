@@ -63,7 +63,7 @@ body {
 
 .header-container {
     grid-area: header;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     
 }
@@ -107,7 +107,7 @@ li:hover {
 }
 
 .blog-post-itm {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     grid-template-areas: blogpost;
 }
 
@@ -208,7 +208,7 @@ p {
 
 .footer {
     grid-area: footer;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: inline-block;
 }
 
@@ -269,7 +269,7 @@ i:hover {
 }
 
 
-@media only screen and (min-width: 790px) and (max-width: 1125px) {
+@media only screen and (min-width: 790px) and (max-width: 1500px) {
     .content-container {
         max-width: 100%;
         margin: 10px 100px 10px 100px;
@@ -367,7 +367,9 @@ a {
 
 .blog-next-section {
     grid-area: next;
-    border: 1px solid purple;
+    margin-right: 15%;
+    margin-left: 15%;
+    /* border: 1px solid purple; */
 }
 
 .next-info {
