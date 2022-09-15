@@ -363,6 +363,7 @@ i:hover {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 .blog-next-section {
