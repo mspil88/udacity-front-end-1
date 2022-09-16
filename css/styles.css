@@ -1,0 +1,17 @@
+@import url("footer.css");
+@import url("header.css");
+@import url("image.css");
+@import url("main.css");
+@import url("next.css");
+
+:root {
+    --font: Rubik;
+    --title-font-size: 20px;
+    --date-font-size: 15px;
+    --title-font-weight: bold;
+    --date-font-color: #8c979a;
+    --primary-font-color: rgba(0, 0, 0, .9);
+    --secondary-font-color: rgba(0, 0, 0, .7);
+    --blog-border-color: rgba(0, 0, 0, .2);
+}
+

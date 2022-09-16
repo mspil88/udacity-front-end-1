@@ -1,0 +1,22 @@
+.footer {
+    grid-area: footer;
+    /* border: 1px solid red; */
+    display: inline-block;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+    color: var(--secondary-font-color);
+    
+}
+
+.fa-brands {
+    transition: 0.2s;
+}
+
+.fa-brands:hover {
+    color: var(--primary-font-color);
+}
