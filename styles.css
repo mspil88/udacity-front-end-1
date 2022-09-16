@@ -191,7 +191,12 @@ p {
     letter-spacing: 0.03em;
 }
 
-
+blockquote {
+    font-family: var(--font);
+    color: var(--secondary-font-color);
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
 
 
 #post-image-1 {
