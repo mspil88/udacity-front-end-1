@@ -1,0 +1,33 @@
+.header-container {
+    grid-area: header;
+    /* border: 1px solid green; */
+    display: flex;
+    
+}
+
+.nav {
+    float: left;
+    margin-left: auto;
+    margin-right: 10px;
+    font-family: var(--font);
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: .19em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    color: var(--secondary-font-color);
+    transition: 0.3s;
+}
+
+li:hover {
+    color: var(--primary-font-color);
+    font-weight: bold;
+    cursor: pointer;
+}

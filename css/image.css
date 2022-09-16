@@ -1,0 +1,47 @@
+
+.post-image {
+    /* border: 1px solid black; */
+
+    height: 70%;
+    width: 100%;
+    min-width: 500px;
+    max-width: 500px;     
+}
+
+#post-image-1 {
+    background: url("../imgs/mpc60_2.png") center center;
+}
+
+#post-image-2 {
+    background: url("../imgs/hh.png") center center;
+}
+
+#post-image-3 {
+    background: url("../imgs/pr.png") center center;
+}
+
+#post-image-4 {
+    background: url("../imgs/mpc2000.png") center center;
+}
+
+#post-image-5 {
+    background: url("../imgs/digging.png") center center;
+}
+
+#post-image-6 {
+    background: url("../imgs/easy.png") center center;
+}
+
+
+#post-image-1, #post-image-2, #post-image-3, #post-image-4, #post-image-5, #post-image-6 {
+    background-size: auto;
+    background-repeat: no-repeat;
+    transition: box-shadow .3s;
+    
+}
+
+
+.post-image:hover {
+    box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+    cursor: pointer; 
+}
