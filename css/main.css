@@ -134,3 +134,113 @@ button {
 .fa-magnifying-glass:hover {
     color: var(--primary-font-color);
 }
+
+
+@media only screen and (min-width: 790px) and (max-width: 1500px) {
+    .content-container {
+        max-width: 100%;
+        margin: 10px 100px 10px 100px;
+        display: grid;
+        grid-template-rows: 50px 600px 600px 150px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        grid-gap: 10px;
+        grid-template-areas:
+            "header header"
+            "content1 content1"
+            "content1 content1"
+            "footer footer";
+    }
+
+    .content-row-1 {
+        grid-area: content1;
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-areas: 
+             "content-r1 content-r1"
+             "content-r2 content-r2"
+    
+    }
+    .post-image {
+        /* border: 1px solid black; */
+    
+        height: 70%;
+        width: 100%;
+        min-width: 400px;
+        max-width: 400px;     
+    }
+    
+    .post-title {
+        font-size: var(--title-font-size);
+        font-weight: var(--title-font-weight);
+        color: var(--primary-font-color);
+        min-width: 400px;
+        max-width: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 376px) {
+    
+  
+
+    #post-image-1, #post-image-2, #post-image-3, #post-image-4, #post-image-5, #post-image-6 {
+        width: 350px;
+    }
+    
+    .nav, li {
+        margin: 0;
+
+    }
+    .blog-item-r1, .blog-item-r2 {
+        margin: 10px 10px 10px 10px;
+    }
+
+    .content-container {
+        min-width: 100%;
+        /* background-color: pink; */
+        margin: 10px 100px 10px 100px;
+        margin-left: 0;
+        display: grid;
+        grid-template-rows: 50px 2000px 150px;
+        grid-template-columns: repeat(1, minmax(200px, 1fr));
+        grid-gap: 10px;
+        grid-template-areas:
+            "header"
+            "content1"
+            "content1"
+            "footer";
+    }
+
+    .content-row-1 {
+        grid-area: content1;
+        /* border: 1px solid blue; */
+        display: grid;
+        margin: 0;
+        grid-template-areas: 
+             "content-r1"
+             "content-r2"
+        
+    }
+
+    .post-image {
+        /* border: 1px solid black; */
+    
+        height: 70%;
+        width: 100%;
+        min-width: 300px;
+        max-width: 400px;     
+        min-height: 200px;
+    }
+    
+    .post-title {
+        font-size: var(--title-font-size);
+        font-weight: var(--title-font-weight);
+        color: var(--primary-font-color);
+        
+    }
+
+    .footer {
+        margin-bottom: 20px;
+    }
+    
+}

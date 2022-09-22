@@ -1,12 +1,5 @@
 
-.post-image {
-    /* border: 1px solid black; */
 
-    height: 70%;
-    width: 100%;
-    min-width: 500px;
-    max-width: 500px;     
-}
 
 #post-image-1 {
     background: url("../imgs/mpc60_2.png") center center;
@@ -31,6 +24,16 @@
 #post-image-6 {
     background: url("../imgs/easy.png") center center;
 }
+
+.post-image {
+    /* border: 1px solid black; */
+
+    height: 70%;
+    width: 100%;
+    min-width: 500px;
+    max-width: 500px;     
+}
+
 
 
 #post-image-1, #post-image-2, #post-image-3, #post-image-4, #post-image-5, #post-image-6 {
