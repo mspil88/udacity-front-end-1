@@ -136,10 +136,12 @@ button {
 }
 
 
-@media only screen and (min-width: 790px) and (max-width: 1500px) {
+@media only screen and (min-width: 700px) and (max-width: 1500px) {
     .content-container {
         max-width: 100%;
         margin: 10px 100px 10px 100px;
+        margin-left: 0;
+        margin-right: 0;
         display: grid;
         grid-template-rows: 50px 600px 600px 150px;
         grid-template-columns: repeat(1, minmax(200px, 1fr));
@@ -150,6 +152,16 @@ button {
             "content1 content1"
             "footer footer";
     }
+
+    /* #post-image-1, #post-image-2, #post-image-3, #post-image-4, #post-image-5, #post-image-6 {
+        width: 350px;
+    } */
+    
+   
+    .blog-item-r1, .blog-item-r2 {
+        margin: 10px 10px 10px 10px;
+    }
+
 
     .content-row-1 {
         grid-area: content1;
@@ -179,7 +191,7 @@ button {
     
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 699px) {
     
   
 
