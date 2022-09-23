@@ -7,7 +7,7 @@ body {
 
 .content-container {
     max-width: 100%;
-    margin: 10px 100px 10px 100px;
+    /* margin: 10px 100px 10px 100px; */
     display: grid;
     grid-template-rows: 50px 800px 150px;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
@@ -20,7 +20,7 @@ body {
 
 .content-container-post {
     max-width: 100%;
-    margin: 10px 100px 10px 100px;
+    /* margin: 10px 100px 10px 100px; */
     display: grid;
     /* grid-template-rows: 50px 900px 150px; */
     grid-template-rows: 0.2fr 4fr 0.5f 1fr;
@@ -139,7 +139,7 @@ button {
 @media only screen and (min-width: 700px) and (max-width: 1500px) {
     .content-container {
         max-width: 100%;
-        margin: 10px 100px 10px 100px;
+        /* margin: 10px 100px 10px 100px; */
         margin-left: 0;
         margin-right: 0;
         display: grid;
@@ -204,13 +204,13 @@ button {
 
     }
     .blog-item-r1, .blog-item-r2 {
-        margin: 10px 10px 10px 10px;
+        /* margin: 10px 10px 10px 10px; */
     }
 
     .content-container {
         min-width: 100%;
         /* background-color: pink; */
-        margin: 10px 100px 10px 100px;
+        /* margin: 10px 100px 10px 100px; */
         margin-left: 0;
         display: grid;
         grid-template-rows: 50px 2000px 150px;
@@ -255,4 +255,8 @@ button {
         margin-bottom: 20px;
     }
     
+}
+
+.post-image, .blog-post-img {
+    width: 100%;
 }
